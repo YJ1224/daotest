@@ -1,0 +1,32 @@
+스프링 : 적은량의 코딩으로 프로그램 개발
+프레임워크 :  라이브러리 + 구조
+라이브러리 : 일반적인 모듈(메소드)의 집합
+소프트웨어 아키텍쳐 : 운영체제 포함  소프트웨어의 구성
+
+스프링 환경 셋팅
+1.STS C드라이브에 압축풀기 (폴더명 :  sts-bundle)
+2.software에 jdk와 spring-tool 집 넣기
+3.jdk 실행 경로 C:\sts-bundle\jdk1.8.0_191\
+(원래C:\javawed\Java\jdk-11.0.1)
+
+4.path 경로 C:\sts-bundle\jdk1.8.0_191\bin;D:\javaweb\product\12.2.0\dbhome_1\bin;%JAVA_HOME%\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\
+
+5.코딩소스 저장소
+C:\sts-bundle\ws
+
+6.스프링 프로젝트
+file - new - spring starter project
+
+*Maven Dependencies
+메이븐으로 관리되는 jar파일 모음
+pom.xml : Maven Dependencies에 대한 관리 설정
+
+*Maven 로컬 저장소(repository)
+C:\Users\Cubit-02\.m2
+
+*메이븐 프로젝트 업데이트 : 첫셋팅시, 프로젝트 설정에 중요한 변화가 있는 경우
+프로젝트 -- 오른쪽 클릭 -- Maven -- update maven project
+
+*스프링 객체 생성 실습
+1. xml 방식
+2. 어노테이션방식
